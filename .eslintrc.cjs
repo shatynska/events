@@ -9,7 +9,7 @@ module.exports = {
     'plugin:prettier/recommended',
     'prettier',
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs', 'tailwind.config.ts'],
+  ignorePatterns: ['dist', '.eslintrc.cjs', 'tailwind.config.ts', 'src/shared/api/generated'],
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh', 'prettier'],
   rules: {
