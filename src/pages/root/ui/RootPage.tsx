@@ -1,4 +1,5 @@
 import { Outlet } from 'react-router-dom';
+import { Toaster } from '~/shared/ui/sonner';
 
 import { Header } from '~/widgets/header';
 
@@ -9,6 +10,7 @@ export function RootPage() {
       <main>
         <Outlet />
       </main>
+      <Toaster richColors position="top-center" />
     </div>
   );
 }
