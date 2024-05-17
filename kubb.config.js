@@ -34,7 +34,7 @@ export default defineConfig({
           path: './hooks',
         },
         group: { type: 'tag' },
-        client: { importPath: '../../../client' },
+        client: { importPath: '../../client' },
         framework: 'react',
         suspense: true,
       },
